@@ -1,0 +1,167 @@
+body{
+    background-color: #CBCBCB;
+}
+
+.img{
+    display: flex;
+    width: 12px;
+    height: 130px;
+}
+h1{
+    color: black;
+  
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-size: 21px;
+}
+#NewProduc, #CodeBa, #DesProduc, #marca, #tipo, #lote, #Cant, #precio, #prove{
+    
+    background: rgba(125, 125, 209, 0.436);
+    border-radius: 0.1px;
+    border-style: none;
+    backdrop-filter: blur(100px);
+    
+    margin-top: 5px; /* separar input de label */
+    margin-bottom: 10px; /* separar label de input */
+ 
+
+}
+
+::placeholder{
+    color: rgba(226, 230, 230, 0.897);
+    padding-left: 7px; /* espacio entre las palabras */
+}
+.colum{
+    display: grid;
+    place-items:center;
+    
+}
+.colum input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row1{
+    padding-top: 5px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.name{
+
+}
+.name input{
+    height: 24px;
+    width: 165px;
+}
+.codebar{
+
+}
+.codebar input{
+    height: 24px;
+    width: 165px;
+}
+.DesProduc{
+
+}
+.DesProduc input{
+    height: 24px;
+    width: 165px;
+}
+.marca{
+
+}
+.marca input{
+    height: 24px;
+    width: 165px;
+}
+.tipo{
+    margin-left: 10px; 
+}
+.tipo input{
+    height: 24px;
+    width: 165px; 
+}
+.lote{
+    margin-left: 10px;
+}
+.lote input{
+    height: 24px;
+    width: 165px;
+
+}
+.cant{
+    margin-left: 10px;
+}
+.cant input{
+    height: 24px;
+    width: 165px;
+
+}
+.precio{
+    margin-left: 10px;
+}
+.precio input{
+    height: 24px;
+    width: 165px;
+}
+
+.colum1 input{
+    height: 24px;
+    width: 165px;
+}
+
+.colum1{
+    display: grid;
+    place-items: center;
+    padding-top: 5px;
+}
+.btn1{
+    padding-top: 25px;
+    display: grid;
+    place-items: center;
+}
+
+.btn2{
+    margin-top: 10px;
+    background-color: #A8AFD3;
+    border:1.3px solid #0C36A1;
+    color: black;
+    padding: 7px 20px;
+    font-size: 14px;
+    border-radius: 12px;
+}
+.btn2:hover{
+    background: black;
+    color: white;
+}
+.btn3{
+    display: grid;
+    place-items: center;
+}
+.btn3 a{
+    margin-top: 10px;
+    background-color: #A8AFD3;
+    border:1.3px solid #0C36A1;
+    color: black;
+    padding: 7px 20px;
+    font-size: 14px;
+    border-radius: 12px;
+}
+.btn3 a:hover{
+    background: black;
+    color: white;
+}
+@media (max-width:1040px) {
+    .registro{
+        width: 85%;
+    }
+}
+@font-face {
+    font-family: 'Gilroy';
+    src:url(Gilroy/Gilroy-ExtraBold.ttf);
+    font-weight: bold;
+    font-style: bold;
+}

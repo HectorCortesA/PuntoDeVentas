@@ -1,0 +1,47 @@
+body{
+    background-color: #CBCBCB;
+}  
+.img{
+    display: grid;
+    place-items: center;
+}
+form{
+    display: grid;
+    place-items: center;
+}
+form{
+    color: #0C36A1;
+}
+.name label {
+    display: flex;
+    flex-direction: column;
+    
+}
+.name input{
+    
+}
+.password label{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn2{
+    margin-top: 10px;
+    background-color: #A8AFD3;
+    border:1.3px solid #0C36A1;
+    color: black;
+    padding: 7px 20px;
+
+    font-size: 14px;
+    border-radius: 12px;
+
+}
+.btn2:hover{
+background: #061948;
+color: white;
+
+
+}
+.text{
+    text-align: center;
+}

@@ -1,0 +1,103 @@
+body{
+    background-color: #CBCBCB;
+}  
+.img{
+    display: flex;
+    width: 15px;
+    height: 130px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form h1{
+    display: grid;
+    place-items: center;
+    color: #8C9EFF ;
+    font-family: 'Gilroy';
+    font-weight: bold;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.user label{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gilroy';
+    font-weight: bold;
+}
+.user input{
+    display: flex;
+    flex-direction: column;
+    height: 21px;
+    width: 190px;
+}
+.name label{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gilroy';
+    font-weight: bold;
+}
+.name input{
+    display: flex;
+    flex-direction: column;
+    height: 21px;
+    width: 190px;
+}
+.x1{
+    width: 15px;
+}
+.password label{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gilroy';
+    font-weight: bold;
+
+}
+.password input{
+    display: flex;
+    flex-direction: column;
+    height: 21px;
+    width: 410px;
+}
+
+
+.btn1{
+    padding-top: 25px;
+    display: grid;
+    place-items: center;
+}
+
+.btn2{
+    margin-top: 10px;
+    background-color: #A8AFD3;
+    border:1.3px solid #0C36A1;
+    color: black;
+    padding: 7px 20px;
+    font-size: 14px;
+    border-radius: 12px;
+}
+.btn2:hover{
+    background: black;
+    color: white;
+}
+
+@media (max-width:1040px) {
+    .registro{
+        width: 85%;
+    }
+}
+@font-face {
+    font-family: 'Gilroy';
+    src:url(Gilroy/Gilroy-ExtraBold.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+
